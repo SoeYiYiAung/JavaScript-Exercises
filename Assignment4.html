@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        
+        label{
+            font-weight: bold;
+            font-family:cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">      
+            <form action="" method='get' class='shop' id="form">
+                <div class="row" style="height:30px">
+                </div>
+
+                <div class="row">
+                    <h2 style="text-align : center;font-weight:bold;font-family:cursive">Food Lover Bakery</h2>
+                    <h5 style="font-family:cursive">&hearts; Thanks for shopping with our bakery &hearts;</h5>
+                    
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-md-2 mt-3">
+                        <label for="" class='form-label'>Invoice Number</label>
+                        <input type="text" name="invoice" id="invoice" class='form-control' >
+                        <span class='text-danger' id='invoice_error'>
+                            
+                        </span>
+                    </div>
+
+                    <div class="col-md-3 mt-3">
+                        <label for="" class='form-label'>Name </label>
+                        <input type="text" name="name" id="name" class='form-control'>
+                        <span class='text-danger' id='name_error'>
+                            
+                        </span>
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <label for="" class='form-label'>Date </label>
+                        <input type="date" name="date" id="date" class='form-control'>
+                        <span class='text-danger' id='date_error'>
+                            
+                        </span>
+                    </div>
+                </div>
+            
+                <div class="row">    
+                    <div class="col-md-3 mt-3">
+                        <label for="" class='form-label'>Item Name </label>
+                        <input type="text" name="item" id="item" class='form-control' >
+                        <span class='text-danger' id='item_error'>
+                            
+                        </span>
+                    </div>
+
+
+                    <div class="col-md-2 mt-3">
+                        <label for="" class='form-label'>Quantity</label>
+                        <input type="text" name="qty" id="qty" class='form-control'>
+                        <span class='text-danger' id='qty_error'>
+                            
+                        </span>
+                    </div>
+
+
+                    <div class="col-md-2 mt-3">
+                        <label for="" class='form-label'>Unit Price </label>
+                        <input type="text" name="unit" id="unit" class='form-control'>
+                        <span class='text-danger' id='unit_error'>
+                            
+                        </span>
+                    </div>
+
+
+                    <div class="col-md-3 mt-3">
+                        <label for="" class='form-label'>Total </label>
+                        <input type="text" name="total" id="total" class='form-control'>
+                        <span class='text-danger' id='total_error'>
+                            
+                        </span>
+                        
+                    </div>
+
+                    <div class="col-md-2 mt-3">
+                        <label for="" class='form-label'>Stop or Continue </label>
+                        <br>
+                        <button class="btn btn-primary" id="next">Next</button>
+                        <button class="btn btn-primary" id="total">Total</button>
+                    </div>
+                </div>
+            </form>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/A4.js"></script>
+</body>
+</html>
